@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="miau/parte1.css">
      <link rel="stylesheet" href="miau/parte3.css">
       <link rel="stylesheet" href="miau/parte4.css">
+     <link rel="stylesheet" href="miau/parte5.css">
       <script href="js/parte3.js"></script>
   </head>
   <body>
@@ -84,42 +85,30 @@ parte1 -->
     </object>
   </div>
 </div>
-<script>
-function toggleFullScreen() {
-  const pdfContainer = document.getElementById('pdfContainer');
-  pdfContainer.classList.toggle('active');
-  
-  const toggleBtn = document.querySelector('.toggle-btn');
-  toggleBtn.style.display = pdfContainer.classList.contains('active') ? 'block' : 'none';
-  toggleBtn.style.display = pdfContainer.classList.contains('active') ? 'transition' : 'all 0.2 ease';
-}
 
-function showPreview(index) {
-  const pdfItems = document.querySelectorAll('.pdf-item');
-  
-  // Oculta todos los elementos PDF
-  pdfItems.forEach(item => {
-    item.classList.remove('active');
-  });
-  
-  // Muestra el PDF seleccionado
-  const pdfItem = document.getElementById(`pdfItem${index}`);
-  pdfItem.classList.add('active');
-  
-  // Muestra el contenedor y el botón de pantalla completa
-  const pdfContainer = document.getElementById('pdfContainer');
-  pdfContainer.classList.add('active');
-  
-  const toggleBtn = document.querySelector('.toggle-btn');
-  toggleBtn.style.display = 'block';
-  toggleBtn.style.display = pdfContainer.classList.contains('active') ? 'z-index' : '1000000000000000000000000000000000000000000000000000000000000000000000000000000000';
-}</script>
 <div>
   <button class="preview-btn" onclick="showPreview(1)">Previsualización Noticia 1</button>
   <button class="preview-btn" onclick="showPreview(2)">Previsualización Noticia 2</button>
   <button class="preview-btn" onclick="showPreview(3)">Previsualización Noticia 3</button>
 </div></section>
 
+<!--     parte5 -->
+
     
+ <section class="parte5">
+        <div class="container">
+            <h2>Educação e Recursos</h2>
+            <div class="resource">
+                <h3>Recurso 1</h3>
+                <p>Descrição do Recurso 1.</p>
+            </div>
+            <div class="resource">
+                <h3>Recurso 2</h3>
+                <p>Descrição do Recurso 2.</p>
+            </div>
+            <!-- Adicione mais recursos conforme necessário -->
+        </div>
+    </section>
+
   </body>
 </html>
