@@ -1,0 +1,93 @@
+:root {
+  --font-family: 'Arial', sans-serif;
+  --bg-gradient-start: #1f1c2c;
+  --bg-gradient-end: #928dab;
+  --text-color: #fff;
+  --section-bg: rgba(255, 255, 255, 0.1);
+  --section-bg-hover: rgba(255, 255, 255, 0.2);
+  --section-border-radius: 10px;
+  --section-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --section-blur: blur(10px);
+  --question-font-size: 18px;
+  --answer-max-height: 500px;
+  --question-padding: 15px;
+}
+
+.parte6 {
+  font-family: var(--font-family);
+  background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+  margin: 0;
+  color: var(--text-color);
+}
+
+.faq-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 80px auto 20px;
+  padding: 20px;
+}
+
+.question {
+  background: var(--section-bg);
+  border-radius: var(--section-border-radius);
+  padding: var(--question-padding);
+  box-shadow: var(--section-box-shadow);
+  transition: background 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.question:hover {
+   transition:all 0.4 ease;
+
+  background: var(--section-bg-hover);
+}
+
+.question summary {
+  font-size: var(--question-font-size);
+  font-weight: bold;
+  margin: 0;
+  outline: none;
+  list-style: none;
+  cursor: pointer;
+  transition:all 0.4 ease;
+}
+
+.question summary::-webkit-details-marker {
+  display: none;
+}
+
+.answer {
+  overflow: hidden;
+  max-height: 0;
+   transition:all 0.4 ease;
+
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+}
+
+.question[open] {
+   transition:all 0.4 ease;
+
+  background: var(--section-bg-hover);
+}
+
+.question[open] .answer {
+  max-height: var(--answer-max-height);
+  padding: 10px 0;
+  transition: all 0.8s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .faq-container {
+    width: 90%; /* Reducir la anchura del contenedor en dispositivos móviles */
+    padding: 15px; /* Ajustar el relleno del contenedor */
+  }
+
+  .question {
+    padding: 12px; /* Ajustar el relleno de las preguntas en dispositivos móviles */
+  }
+
+  .question summary {
+    font-size: 16px; /* Reducir el tamaño de la fuente del resumen en dispositivos móviles */
+  }
+}
