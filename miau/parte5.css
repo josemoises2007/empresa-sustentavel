@@ -23,11 +23,24 @@
   box-shadow: var(--section-box-shadow);
   backdrop-filter: var(--section-blur);
   -webkit-backdrop-filter: var(--section-blur);
+  
 }
 
 .container {
   max-width: 800px;
   margin: auto;
+  animation:fade-in 1.2s linear both;
+  animation-timeline: view(block);
+  animation-range: cover 0% cover 50%;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .container h2 {
