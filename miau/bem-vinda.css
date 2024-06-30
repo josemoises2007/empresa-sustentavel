@@ -11,7 +11,7 @@
 
 
 .welcome-section, .services-section, .faq-section {
-  margin-top: 300px;
+  margin-top: 50%;
   margin-bottom: 50px; /* Añade margen inferior para evitar superposición */
   padding-top: 50vh;
   width:100%;
