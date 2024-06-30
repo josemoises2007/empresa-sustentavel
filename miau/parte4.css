@@ -55,6 +55,7 @@
       transition: visibility 0s, opacity 0.3s ease;
     }
     .pdf-container.active {
+     z-index:1000000000000000000000000000000000;
       visibility: visible;
       opacity: 1;
     }
