@@ -1,0 +1,117 @@
+:root {
+  --font-family: 'Arial', sans-serif;
+  --bg-gradient-start: rgba(61, 21, 52, 1);
+  --bg-gradient-end: rgba(34, 55, 139, 1);
+  --text-color: #fff;
+  --section-bg: rgba(255, 255, 255, 0.1);
+  --section-border-radius: 15px;
+  --section-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  --section-blur: blur(10px);
+  --resource-hover-bg: rgba(255, 255, 255, 0.2);
+  --question-hover-bg: rgba(255, 255, 255, 0.2);
+  --question-font-size: 18px;
+  --question-font-weight: bold;
+  --answer-max-height: 500px;
+  --question-bg: rgba(255, 255, 255, 0.1);
+  --question-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}   
+.parte5{
+  margin: 80px 20px 20px;
+  padding: 20px;
+  background: var(--section-bg);
+  border-radius: var(--section-border-radius);
+  box-shadow: var(--section-box-shadow);
+  backdrop-filter: var(--section-blur);
+  -webkit-backdrop-filter: var(--section-blur);
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resource {
+  background: var(--question-bg);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: var(--question-box-shadow);
+  transition: background 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.resource:hover {
+  background: var(--resource-hover-bg);
+}
+
+.question {
+  background: var(--question-bg);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: var(--question-box-shadow);
+  transition: background 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.question[open] {
+  background: var(--question-hover-bg);
+}
+
+.question summary {
+  font-size: var(--question-font-size);
+  font-weight: var(--question-font-weight);
+  margin: 0;
+  outline: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.question summary::-webkit-details-marker {
+  display: none;
+}
+
+.answer {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
+.question[open] .answer {
+  max-height: var(--answer-max-height); /* Adjust as needed */
+  transition: max-height 0.5s ease-in;
+}
+
+.question p {
+  margin: 10px 0 0;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .section {
+    margin: 60px 10px 10px;
+    padding: 15px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .question summary {
+    font-size: 16px;
+  }
+
+  .question p {
+    font-size: 14px;
+  }
+}
