@@ -11,6 +11,8 @@
      <link rel="stylesheet" href="miau/bem-vinda.css">
     <link rel="stylesheet" href="miau/parte1.css">
      <link rel="stylesheet" href="miau/parte3.css">
+      <link rel="stylesheet" href="miau/parte4.css">
+      <script href="js/parte3.css"></script>
   </head>
   <body>
     <div id="sticky-parallax-header" bis_skin_checked="1"><p>lorem</div>
@@ -58,6 +60,36 @@ parte1 -->
             <p>Proveemos soluciones innovadoras para resolver tus problemas.</p>
         </div>
   </div></section>
+
+<!--     parte4 -->
+    <section class="parte4">
+<button class="toggle-btn" onclick="toggleFullScreen()"><span class="material-symbols-outlined">
+    close
+    </span></button>
+
+<div class="pdf-container" id="pdfContainer">
+  <div class="pdf-item" id="pdfItem1">
+    <object data="fisica experimental.pdf" type="application/pdf" width="100%" height="100%">
+      <p>El documento no puede ser mostrado.</p>
+    </object>
+  </div>
+  <div class="pdf-item" id="pdfItem2">
+    <object data="fisica experimental.pdf" type="application/pdf" width="100%" height="100%">
+      <p>El documento no puede ser mostrado.</p>
+    </object>
+  </div>
+  <div class="pdf-item" id="pdfItem3">
+    <object data="fisica experimental.pdf" type="application/pdf" width="100%" height="100%">
+      <p>El documento no puede ser mostrado.</p>
+    </object>
+  </div>
+</div>
+
+<div>
+  <button class="preview-btn" onclick="showPreview(1)">Previsualización Noticia 1</button>
+  <button class="preview-btn" onclick="showPreview(2)">Previsualización Noticia 2</button>
+  <button class="preview-btn" onclick="showPreview(3)">Previsualización Noticia 3</button>
+</div></section>
 
     
   </body>
