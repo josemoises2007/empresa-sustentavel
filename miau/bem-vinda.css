@@ -1,0 +1,35 @@
+:root {
+/*   --font-family: 'Arial', sans-serif; */
+  --bg-gradient-start: #1f1c2c;
+  --bg-gradient-end: #928dab;
+  --text-color: #fff;
+  --section-bg: rgba(255, 255, 255, 0.1);
+  --section-border-radius: 15px;
+  --section-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  --section-blur: blur(10px);
+}
+
+
+.welcome-section, .services-section, .faq-section {
+  margin: 80px 20px 20px;
+  padding: 20px;
+ background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+  border-radius: var(--section-border-radius);
+  box-shadow: var(--section-box-shadow);
+  backdrop-filter: var(--section-blur);
+  -webkit-backdrop-filter: var(--section-blur);
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .welcome-section, .services-section, .faq-section {
+    margin: 60px 10px 10px;
+  }
+}
