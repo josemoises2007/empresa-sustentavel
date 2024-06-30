@@ -1,11 +1,9 @@
-
 function toggleFullScreen() {
   const pdfContainer = document.getElementById('pdfContainer');
   pdfContainer.classList.toggle('active');
   
   const toggleBtn = document.querySelector('.toggle-btn');
   toggleBtn.style.display = pdfContainer.classList.contains('active') ? 'block' : 'none';
-  toggleBtn.style.display = pdfContainer.classList.contains('active') ? 'transition' : 'all 0.2 ease';
 }
 
 function showPreview(index) {
@@ -26,5 +24,4 @@ function showPreview(index) {
   
   const toggleBtn = document.querySelector('.toggle-btn');
   toggleBtn.style.display = 'block';
-  toggleBtn.style.display = pdfContainer.classList.contains('active') ? 'z-index' : '1000000000000000000000000000000000000000000000000000000000000000000000000000000000';
 }
