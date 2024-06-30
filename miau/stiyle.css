@@ -5,7 +5,11 @@ body{
   font-size: 1.5rem;
   margin-inline: auto;
  
+display: flex;
 
+align-items: center;
+
+justify-content: center;
    transition: background-color 0.3s ease;
   
 }
