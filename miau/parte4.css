@@ -5,8 +5,31 @@
     align-items: center;
     height: 100vh;
     overflow: hidden;
+   animation: reveal 2s ease both;
+  animation-timeline: scroll();
+  animation-range: cover 0% cover 
   }
-
+@keyframes reveal {
+  0% {
+    background:  #B4E3D9; /* azul claro */
+  }
+  5%{
+    background:#ADD8E6;
+  }
+  25% {
+    background:  #AED6F1; /* azul dodger */
+  }
+  50% {
+    background: #5DADEC; /* dark turquoise */
+  }
+  70% {
+    background: #B0E0E6; /* azul cornflower */
+  }
+  
+  100% {
+    background: #98FB98; /* azul steel */
+  }
+}
   .pdf-container {
     display: flex;
     justify-content: space-between;
