@@ -1,5 +1,5 @@
  @media (max-width: 600px) {
-      .container {
+      .contal {
      
             padding: 10px;
         /* Ajuste para telas menores */
@@ -20,7 +20,7 @@ place-items: center;
         background-position: 100% 100%; /* Movimento do gradiente */
       }
     }
- .container {
+ .contal {
             position: relative;
             display: inline-block;
    border:9px solid #0099f1;
