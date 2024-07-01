@@ -1,0 +1,105 @@
+ @media (max-width: 600px) {
+      .container {
+     
+            padding: 10px;
+        /* Ajuste para telas menores */
+      }
+    } .parte7{
+   
+    display: grid;
+    animation: moveBackground 20s linear infinite; 
+place-items: center;
+       background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px, #f2f2f2 20px);
+    }
+     @keyframes moveBackground {
+      0% {
+        background-position: 0 0;
+        /* Posição inicial do gradiente */
+      }
+      100% {
+        background-position: 100% 100%; /* Movimento do gradiente */
+      }
+    }
+ .container {
+            position: relative;
+            display: inline-block;
+   border:9px solid #0099f1;
+   border-radius:20px;
+        }
+
+        .image { border-radius:20px;
+            display: block;
+            width: 300px;
+            height: 300px;
+            background-image: url('https://github.com/josemoises2007/chat-com-Laxus-/assets/106701602/a37d31c7-1edf-4b8b-9e4e-071fb2adc50b');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 10px;
+        }
+
+        input[type=text]:focus {
+            border: 3px dashed green;
+            outline: none;
+            border-width: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .input {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: calc(100% - 80px); /* Ajuste para dar espaço ao botão de envio */
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius:20px;
+            background: linear-gradient(180deg, rgba(13,200,0,0.1745885854341737) 4%, rgba(255,255,255,0.1054009103641457) 43%, rgba(13,200,0,0.1054009103641457) 76%, rgba(13,200,0,0.1138042717086834) 100%);
+            box-shadow: inset 0px 55px 1px 0px rgba(255, 255, 255, 0.1),
+                        inset 0px -20px 5px 0px rgba(0,0,0,0.1),
+                        0px 4px 8px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            color: #4e9a28;
+            font-size: 16px;
+            transition: box-shadow 0.3s ease, border 0.3s ease;
+        }
+
+        .input::placeholder {
+            color: rgba(255, 255, 255, 1.7);
+          
+      }.input:hover{
+        background: #4e9a28;
+box-shadow:  20px 20px 60px #428322,
+             -20px -20px 60px #5ab12e;
+        color:white;
+        -webkit-box-shadow: inset 55px -36px 58px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 55px -36px 58px -8px rgba(0,0,0,0.75);
+box-shadow: inset 55px -36px 58px -8px rgba(0,0,0,0.75);
+      }
+
+        .submit {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 80px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 2px solid #4e9a28;
+             border-radius:20px;
+            background: linear-gradient(180deg, rgba(13,200,0,0.1745885854341737) 4%, rgba(255,255,255,0.1054009103641457) 43%, rgba(13,200,0,0.1054009103641457) 76%, rgba(13,200,0,0.1138042717086834) 100%);
+            box-shadow: inset 0px 55px 1px 0px rgba(255, 255, 255, 0.1),
+                        inset 0px -20px 5px 0px rgba(0,0,0,0.1),
+                        0px 4px 8px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            color: #4e9a28;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+      .submit:hover{
+        background:#4e9a28;
+        color:white;
+      }
