@@ -6,20 +6,31 @@
       }
     } .parte7{
    
-    display: grid;
-    animation: moveBackground 20s linear infinite; 
-place-items: center;
-       background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px, #f2f2f2 20px);
+      text-align: center;
+    /* display: grid; */
+    animation:swing-in-top-fwd linear both;
+  animation-timeline: view(block);
+  animation-range: cover 0% cover 50%;
+    place-items: center;
+    background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px, #f2f2f2 20px);
     }
-     @keyframes moveBackground {
-      0% {
-        background-position: 0 0;
-        /* Posição inicial do gradiente */
-      }
-      100% {
-        background-position: 100% 100%; /* Movimento do gradiente */
-      }
+     @keyframes swing-in-top-fwd {
+       0% {
+    -webkit-transform: rotateX(-100deg);
+            transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 1;
+  }
     }
+
  .contal {
             position: relative;
             display: inline-block;
