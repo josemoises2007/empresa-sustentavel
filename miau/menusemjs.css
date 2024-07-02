@@ -1,0 +1,199 @@
+
+.especial{
+  right: 40%;
+  position:relative;
+    backface-visibility: hidden;
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+        white-space: nowrap;
+        background: linear-gradient(180deg, #aee 0%, #8cc 49%, #599 51%, #8cc 100%);
+        border-radius: 5px;
+        border-width: 1px;
+        padding: 10px 20px;
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1), 0px 1px 3px rgba(0, 0, 0, 0.3);
+        color: #fff;
+        font-size: 16px;
+        font-family: Helvetica Neue;
+        font-weight: 900;
+        font-style: normal;
+        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,  border 0.3s ease-in-out;
+}
+*
+body{
+  font-size: 1.5rem;
+  margin-inline: auto;
+  width: min(100ch, 100%);
+  background:black;
+   transition: background-color 0.3s ease;
+  
+}
+    .especial:hover {
+      border:none;
+        background: linear-gradient(180deg, #8cc 0%, #aee 49%, #8cc 51%, #599 100%);
+                 box-shadow: 0px 0px 20px rgba(102, 255, 204, 1), 0px 0px 40px rgba(102, 255, 204, 1), 0px 0px 80px rgba(102, 255, 204, 1); /* Efeito de neon menta aumentado */
+        transform: scale(1.05);
+    }
+.especial:after{
+  transition:  border 0.3s ease-in;
+}
+.titulo{
+ margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.titulo h1{
+  font-size: calc(1.375rem + 1.5vw);
+}
+.menu {z-index:10000000000000000000000000000000000000000000000000;
+  border:none;
+  word-wrap: break-word;
+  top: 0;
+    left: 0;
+      display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0;
+ position:fixed;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+.menu a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 22px;
+  color:#5e5e5e;
+  transition: transform 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: rgba(142,181,173,1);
+  transform: translateX(10px);
+  color:white;
+  /* Mover el elemento al hacer hover */
+}
+a{
+  padding:30px;
+}
+#mypopover {
+  /* Eliminar propiedades duplicadas */
+  padding: 60px;
+  width: 300px;
+  height: 100%;
+  background-color:#B4E3D9;
+  overflow: hidden;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Transition for the popover itself */
+
+[popover]:popover-open {
+  opacity: 1;
+  
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+[popover] {
+  font-size: 1.2rem;
+  padding: 10px;
+
+  /* Final state of the exit animation */
+  opacity: 0;
+  transform: scaleX(0);
+animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  transition:
+    opacity 0.7s,
+    transform 0.7s,
+    overlay 0.7s allow-discrete,
+    display 0.7s allow-discrete;
+  /* Equivalent to
+  transition: all 0.7s allow-discrete; */
+}
+
+/* Needs to be after the previous [popover]:popover-open rule
+to take effect, as the specificity is the same */
+@starting-style {
+  [popover]:popover-open {
+    opacity: 0;
+
+	        animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+}
+
+@keyframes slide-out-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+/* Transition for the popover's backdrop */
+
+[popover]::backdrop {
+  background-color: rgb(0 0 0 / 0%);
+  transition:
+    display 0.7s allow-discrete,
+    overlay 0.7s allow-discrete,
+    background-color 0.7s;
+  /* Equivalent to
+  transition: all 0.7s allow-discrete; */
+}
+
+[popover]:popover-open::backdrop {
+  background-color: rgb(0 0 0 / 25%);
+}
+
+/* The nesting selector (&) cannot represent pseudo-elements
+so this starting-style rule cannot be nested */
+
+@starting-style {
+  [popover]:popover-open::backdrop {
+    background-color: rgb(0 0 0 / 0%);
+  }
+}
+@media (max-width: 992px) {
+  /* Estilos para teléfonos y tabletas */
+  .menu {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .menu a {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  #mypopover {
+    height: 50%;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .titulo h1 {
+    font-size: 24px;
+  }
+}
