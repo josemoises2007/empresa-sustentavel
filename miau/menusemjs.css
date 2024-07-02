@@ -20,15 +20,7 @@
         text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,  border 0.3s ease-in-out;
 }
-*
-body{
-  font-size: 1.5rem;
-  margin-inline: auto;
-  width: min(100ch, 100%);
-  background:black;
-   transition: background-color 0.3s ease;
-  
-}
+
     .especial:hover {
       border:none;
         background: linear-gradient(180deg, #8cc 0%, #aee 49%, #8cc 51%, #599 100%);
