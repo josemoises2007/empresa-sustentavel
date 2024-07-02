@@ -33,8 +33,33 @@
   text-align: center;
 }
 
-@media (max-width: 600px) {
-  .welcome-section, .services-section, .faq-section {
-    margin: 60px 10px 10px;
+@media (max-width: 1200px) {
+  #sticky-parallax-header {
+    font-size: calc(3vw + 0.5em);
+  }
+  .centrada {
+    width: 40%;
+    left: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  #sticky-parallax-header {
+    font-size: calc(2.5vw + 0.5em);
+  }
+  .centrada {
+    width: 50%;
+    left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  #sticky-parallax-header {
+    font-size: calc(2vw + 0.5em);
+    height: 50vh;
+  }
+  .centrada {
+    width: 60%;
+    left: 5%;
   }
 }
