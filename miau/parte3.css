@@ -81,7 +81,7 @@ font-family: 'Arial', sans-serif;
         font-size: 14px; /* Reducir el tamaño del texto */
     }
 }
-.container{
+.service-card{
   animation: tilt-in-fwd-br linear both;
   animation-timeline: view(block);
   animation-range: cover 0% cover 50%;
