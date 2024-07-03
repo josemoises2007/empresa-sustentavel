@@ -6,23 +6,23 @@
   }
 @keyframes reveal {
   0% {
-    background:  #B4E3D9; /* azul claro */
+    background:  #aaffee; /* azul claro */
   }
   5%{
-    background:#ADD8E6;
+    background:#46ffd2;
   }
   25% {
-    background:  #AED6F1; /* azul dodger */
+    background: #0d438f; /* azul dodger */
   }
   50% {
-    background: #5DADEC; /* dark turquoise */
+    background: #00ec7c; /* dark turquoise */
   }
   70% {
-    background: #B0E0E6; /* azul cornflower */
+    background: #00b2ec; /* azul cornflower */
   }
   
   100% {
-    background: #98FB98; /* azul steel */
+    background: #0000ec; /* azul steel */
   }
 }
    .material-symbols-outlined {
