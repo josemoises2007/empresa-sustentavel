@@ -22,8 +22,11 @@
         <link rel="stylesheet" href="miau/parte7.css">
     <link rel="stylesheet" href="miau/parte8.css">
     <link rel="stylesheet" href="miau/parte9.css">
+       <link rel="stylesheet" href="miau/comentarios.css">
       <script src="js/parte4.js"></script>
      <script src="js/video.js"></script>
+     <script src="js/comentarios1.js"></script>
+       <script src="js/comentarios2.js"></script>
   </head>
   <body>
     <div id="sticky-parallax-header" bis_skin_checked="1"><p>lorem</p>  <button popovertarget="mypopover" class="especial">MENU</button>
@@ -291,5 +294,31 @@ parte1 -->
             </div>
         </div>
    </footer></section>
+    
+	<section class="ultimo">
+    <div class="container">
+        <h1>Deixe seu comentário</h1>
+        <form id="comentarioForm" action="https://ajudapratodos.000webhostapp.com/comentariostext/processa_comentario.php" method="POST" enctype="multipart/form-data">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="comentario">Comentário:</label>
+            <textarea id="comentario" name="comentario" required></textarea>
+
+            <input type="checkbox" id="addFoto" name="addFoto" value="yes">
+            <label for="addFoto">Adicionar uma foto de perfil ao comentário?</label>
+
+            <div id="fotoContainer" style="display: none;">
+                <label for="foto">Foto de Perfil:</label>
+                <input type="file" id="foto" name="foto">
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="comentarios">
+            <!-- Comentários serão carregados aqui -->
+        </div>
+    </div>
+	    </section>
   </body>
 </html>
