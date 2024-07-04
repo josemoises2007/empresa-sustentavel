@@ -1,0 +1,70 @@
+.parte9 {
+    font-family: 'Arial', sans-serif;
+    background: rgb(101,85,97);
+    background: linear-gradient(174deg, rgba(101,85,97,1) 0%, rgba(0,236,124,1) 82%, rgba(101,85,97,1) 99%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.footer-content h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #4a4a4a;
+}
+
+.footer-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4a4a4a;
+}
+
+.footer {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    color: #4a4a4a;
+}
+
+.footer-content a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.footer-content .social-links a {
+    margin: 0 10px;
+    display: inline-block;
+    color: #4a4a4a;
+}
+
+
+@media (max-width: 600px) {
+    .parte9 {
+        padding: 10px;
+    }
+
+    .footer-content h1 {
+        font-size: 20px;
+    }
+
+    .footer-content p {
+        font-size: 14px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+    }
+}
