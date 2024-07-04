@@ -3,9 +3,12 @@
 font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #1f1c2c, #928dab);
     width: 100%;
-    display: flex;
+ display: flex;
     justify-content: center;
     align-items: center;
+ 
+    align-content: center;
+    flex-direction: column;
     /* height: 100vh; */
     /* margin: 0; */
     /* padding: 20px; */
