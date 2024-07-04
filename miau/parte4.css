@@ -1,4 +1,10 @@
  .parte4 {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    align-content: center;
+    flex-direction: column;
   
    animation: reveal 2s ease both;
   animation-timeline: scroll();
