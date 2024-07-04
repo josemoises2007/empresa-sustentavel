@@ -1,0 +1,136 @@
+ul {
+    list-style-type: none;
+}
+
+.ultimo{
+    font-family: Arial, sans-serif;
+  
+	        animation: color-change-5x 8s linear infinite alternate both;/* Fundo mais claro */
+    margin: 0;
+    padding: 0;
+}
+@keyframes color-change-5x {
+  0% {
+    background: #aaffee;
+  }
+  25% {
+    background: #4665ff;
+  }
+  50% {
+    background: #46ffd2;
+  }
+  75% {
+    background: #0d8f8a;
+  }
+  100% {
+    background:#0d438f;
+  }
+}
+
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco suave */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+
+form {
+    background: #e5f2f3; /* Azul claro para formulário */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #56a3a6; /* Azul suave para rótulos */
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #56a3a6; /* Azul suave para bordas */
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo branco suave */
+    color: #333; /* Texto mais escuro para melhor legibilidade */
+}
+
+form input[type="file"] {
+    margin-top: 10px;
+    color: #56a3a6; /* Azul suave para texto de arquivo */
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #56a3a6; /* Azul suave para botão */
+    color: #fff; /* Texto branco */
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(86, 163, 166, 0.8); /* Sombra azul suave */
+}
+
+#comentarios {
+    background: #d0e8ea; /* Azul claro para área de comentários */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(86, 163, 166, 0.8); /* Sombra azul suave */
+}
+
+.comentario {
+    display: flex;
+    margin-bottom: 20px;
+    border: 2px solid #56a3a6; /* Azul suave para borda do comentário */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo branco suave */
+    box-shadow: 0px 0px 20px rgba(86, 163, 166, 0.8); /* Sombra azul suave */
+    align-content: space-between;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+}
+
+.comentario img {
+  height: 70px;
+
+    aspect-ratio: 1 / 1;
+    max-width: 100px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid #56a3a6; /* Azul suave para borda da imagem */
+}
+
+.comentario h3 {
+    margin: 0;
+    color: #56a3a6; /* Azul suave para título do comentário */
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.comentario p {
+    margin: 0;
+    color: #333; /* Texto mais escuro para melhor legibilidade */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none;
+}
