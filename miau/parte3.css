@@ -17,7 +17,7 @@ font-family: 'Arial', sans-serif;
 
 .container {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .service-card, .solution-card {
@@ -84,7 +84,7 @@ font-family: 'Arial', sans-serif;
         font-size: 14px; /* Reducir el tamaño del texto */
     }
 }
-.service-card{
+.container {
   animation: tilt-in-fwd-br linear both;
   animation-timeline: view(block);
   animation-range: cover 0% cover 50%;
