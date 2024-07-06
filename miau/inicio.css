@@ -6,7 +6,7 @@
   font-family: "Grey Qo", cursive;
   font-weight: 400;
   font-style: normal;
-  animation: sticky-parallax-header-move-and-size 0.2s ease-out forwards;
+  animation: sticky-parallax-header-move-and-size 0.2s cubic-bezier(0, 0, 0, 0.97) forwards;
   animation-timeline: scroll();
   animation-range: 0vh 90vh;
   object-fit: cover;
