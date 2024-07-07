@@ -1,13 +1,11 @@
 ul {
     list-style-type: none;
 }
-@media screen and (min-width: 768px) {
-   	overflow:auto;
-}
+
 .ultimo{
     font-family: Arial, sans-serif;
-  
-	        animation: color-change-5x 8s linear infinite alternate both;/* Fundo mais claro */
+  overflow:auto;
+  animation: color-change-5x 8s linear infinite alternate both;/* Fundo mais claro */
     margin: 0;
     padding: 0;
 }
