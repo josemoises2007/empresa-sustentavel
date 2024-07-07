@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
   color:#79ffb4;
   font-size:12px;
+  overflow-y:hidden;
 }
 .titulo_Galeria{
   font-size:42vh;
@@ -13,6 +14,7 @@
      overflow-x: hidden;
 }
 .column__item-imgwrap img{
+  overflow:hidden;
    border-radius: 25px;
   width:220px;
   height:420px;
@@ -20,30 +22,38 @@
       objet-fit:cover;
 }
 
-.column {
+.colum {
   margin:10px;
 	display: flex;
+  	overflow-y: hidden;
 	flex-direction: column;
 }.column-reverse {
+  	overflow-y: hidden;
 	transform: translateY(calc(-100% + 100vh));
-}.columns {
+}
+.colum {
 	overflow-y: hidden;
 }.column-reverse {
+  	overflow-y: hidden;
 	flex-direction: column-reverse;
    transform: translateY(calc(-100% + 100vh));
 }@keyframes adjust-position {
 	/* Start position: shift entire column up, but not so that it goes out of view */
 	from {
 		transform: translateY(calc(-100% + 100vh));
+    
+    overflow-y: hidden;
 	}
 
 	/* End position: shift entire column down, but not so that it goes out of view */
 	to {
 		transform: translateY(calc(100% - 100vh));
+    	overflow-y: hidden;
 	}
 }
 
 .column-reverse {
+  	overflow-y: hidden;
 	animation: adjust-position linear forwards;
 	animation-timeline: scroll(root block);
 }
