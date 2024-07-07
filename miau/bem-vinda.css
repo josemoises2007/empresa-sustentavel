@@ -9,6 +9,8 @@
   --section-blur: blur(10px);
 }
 
+.content{
+border-radius: 10px;}
 
 .welcome-section, .services-section, .faq-section {
   margin-top: 40%;
