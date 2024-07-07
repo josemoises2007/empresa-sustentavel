@@ -11,7 +11,7 @@
   margin:10px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-     overflow-x: hidden;
+     overflow: hidden;
 }
 .colum__item-imgwrap img{
   overflow:hidden;
@@ -27,7 +27,7 @@
 	display: flex;
   	overflow-y: hidden;
 	flex-direction: column;
-}.column-reverse {
+}.colum-reverse {
   	overflow-y: hidden;
 	transform: translateY(calc(-100% + 100vh));
 }
