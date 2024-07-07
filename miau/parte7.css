@@ -10,7 +10,7 @@
     /* display: grid; */
     animation:swing-in-top-fwd linear both;
   animation-timeline: view(block);
-  animation-range: cover 0% cover 50%;
+  animation-range: cover 0% cover 20%;
     place-items: center;
     background: linear-gradient(to bottom right, #00ffcc, #0080ff); background: linear-gradient(to bottom right, #00ffcc, #0080ff); }
      @keyframes swing-in-top-fwd {
