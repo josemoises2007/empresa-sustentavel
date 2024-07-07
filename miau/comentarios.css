@@ -8,6 +8,39 @@ ul {
 	        animation: color-change-5x 8s linear infinite alternate both;/* Fundo mais claro */
     margin: 0;
     padding: 0;
+	overflow:auto;
+	.ultimo::-webkit-scrollbar {
+    width: 10px; /* largura da barra de rolagem */
+    background-color: #f1f1f1; /* cor de fundo */
+}
+
+.ultimo::-webkit-scrollbar-thumb {
+    background-color: #4CAF50; /* cor do indicador de rolagem */
+    border-radius: 5px; /* borda arredondada */
+}
+
+.ultimo::-webkit-scrollbar-thumb:hover {
+    background-color: #45a049; /* cor do indicador de rolagem ao passar o mouse */
+}
+
+.ultimo::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* cor da faixa de rolagem */
+}
+
+.ultimo::-webkit-scrollbar-track-piece {
+    background-color: #ffffff; /* cor do pedaço da faixa de rolagem */
+}
+
+.ultimo::-webkit-scrollbar-corner {
+    background-color: transparent; /* cor do canto da barra de rolagem */
+}
+
+.ultimo::-webkit-resizer {
+    background-color: #ffffff; /* cor do redimensionador da barra de rolagem */
+    border: 2px solid #4CAF50; /* borda do redimensionador */
+    border-radius: 5px; /* borda arredondada */
+}
+
 }
 @keyframes color-change-5x {
   0% {
