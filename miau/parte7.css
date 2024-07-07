@@ -33,7 +33,6 @@
  .contal {
             position: relative;
             display: inline-block;
-   border:9px solid #0099f1;
    border-radius:20px;
         }
 
@@ -87,7 +86,10 @@ box-shadow:  20px 20px 60px #428322,
 -moz-box-shadow: inset 55px -36px 58px -8px rgba(0,0,0,0.75);
 box-shadow: inset 55px -36px 58px -8px rgba(0,0,0,0.75);
       }
+form input[type="text"], form textarea  {
 
+    transition: all 0.3s ease;
+}
         .submit {
             position: absolute;
             bottom: 0;
@@ -96,7 +98,7 @@ box-shadow: inset 55px -36px 58px -8px rgba(0,0,0,0.75);
             padding: 10px;
             box-sizing: border-box;
             border: 2px solid #4e9a28;
-             border-radius:20px;
+             border-radius:9px;
             background: linear-gradient(180deg, rgba(13,200,0,0.1745885854341737) 4%, rgba(255,255,255,0.1054009103641457) 43%, rgba(13,200,0,0.1054009103641457) 76%, rgba(13,200,0,0.1138042717086834) 100%);
             box-shadow: inset 0px 55px 1px 0px rgba(255, 255, 255, 0.1),
                         inset 0px -20px 5px 0px rgba(0,0,0,0.1),
