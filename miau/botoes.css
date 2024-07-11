@@ -1,0 +1,120 @@
+.contec {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 65%;
+gap:21px;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+}
+@media (max-width: 768px) {
+    .especial {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+     .contec {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+}.especial {
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 10px 20px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1), 0px 1px 3px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 16px;
+    font-family: Helvetica Neue;
+    font-weight: 900;
+    font-style: normal;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+    overflow: hidden; /* To hide the overflow of the pseudo-element */
+}
+
+.especial::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; /* Start the raia from outside the button */
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.especial:hover::before {
+    transform: translateX(100%); /* Move the raia across the button */
+}
+
+.especial:hover {
+    border: none;
+    transform: scale(1.05);
+}
+
+.blue {
+    background: linear-gradient(180deg, #aee 0%, #8cc 49%, #599 51%, #8cc 100%);
+}
+
+.blue::before {
+  content: 'youtube';
+    background: linear-gradient(180deg, #8cc 0%, #aee 49%, #8cc 51%, #599 100%);
+}
+
+.blue:hover {
+    background: linear-gradient(180deg, #8cc 0%, #aee 49%, #8cc 51%, #599 100%);
+    box-shadow: 0px 0px 20px rgba(102, 255, 204, 1), 0px 0px 40px rgba(102, 255, 204, 1), 0px 0px 80px rgba(102, 255, 204, 1);
+}
+
+.red {
+    background: linear-gradient(180deg, #f88 0%, #f44 49%, #c22 51%, #f44 100%);
+}
+
+.red::before {
+    background: linear-gradient(180deg, #f44 0%, #f88 49%, #f44 51%, #c22 100%);
+  content: 'github';
+}
+
+.red:hover {
+    background: linear-gradient(180deg, #f44 0%, #f88 49%, #f44 51%, #c22 100%);
+    box-shadow: 0px 0px 20px rgba(255, 102, 102, 1), 0px 0px 40px rgba(255, 102, 102, 1), 0px 0px 80px rgba(255, 102, 102, 1);
+}
+
+.green {
+    background: linear-gradient(180deg, #8e8 0%, #4c4 49%, #2a2 51%, #4c4 100%);
+  
+}
+
+.green::before {
+  content: 'intagram';
+    background: linear-gradient(180deg, #4c4 0%, #8e8 49%, #4c4 51%, #2a2 100%);
+}
+
+.green:hover {
+  
+    background: linear-gradient(180deg, #4c4 0%, #8e8 49%, #4c4 51%, #2a2 100%);
+    box-shadow: 0px 0px 20px rgba(102, 255, 102, 1), 0px 0px 40px rgba(102, 255, 102, 1), 0px 0px 80px rgba(102, 255, 102, 1);
+}
+
+.purple {
+    background: linear-gradient(180deg, #d8a 0%, #c44 49%, #a22 51%, #c44 100%);
+}
+
+.purple::before {
+content: 'intagram';
+    background: linear-gradient(180deg, #c44 0%, #d8a 49%, #c44 51%, #a22 100%);
+}
+
+.purple:hover {
+    background: linear-gradient(180deg, #c44 0%, #d8a 49%, #c44 51%, #a22 100%);
+    box-shadow: 0px 0px 20px rgba(204, 102, 255, 1), 0px 0px 40px rgba(204, 102, 255, 1), 0px 0px 80px rgba(204, 102, 255, 1);
+}
