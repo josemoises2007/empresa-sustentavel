@@ -3,6 +3,17 @@
   border-radius:10px;
   
 }
+ @media (max-width: 768px) {
+           .load-img {
+                width: 150px;
+            }
+        }
+
+        @media (max-width: 480px) {
+           .load-img {
+                width: 100px;
+            }
+        }
 
 .loading-container {
      z-index: 9999;
