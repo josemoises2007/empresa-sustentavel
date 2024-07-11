@@ -42,7 +42,7 @@
 }
 
 .blue::before {
-  content: 'youtube';
+  content: 'github';
     background: linear-gradient(180deg, #8cc 0%, #aee 49%, #8cc 51%, #599 100%);
 }
 
@@ -57,7 +57,7 @@
 
 .red::before {
     background: linear-gradient(180deg, #f44 0%, #f88 49%, #f44 51%, #c22 100%);
-  content: 'github';
+  content: 'twitter';
 }
 
 .red:hover {
@@ -71,7 +71,7 @@
 }
 
 .green::before {
-  content: 'intagram';
+  content: 'codepen';
     background: linear-gradient(180deg, #4c4 0%, #8e8 49%, #4c4 51%, #2a2 100%);
 }
 
