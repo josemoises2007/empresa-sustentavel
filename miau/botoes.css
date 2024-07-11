@@ -1,28 +1,4 @@
-.contec {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: center;
-    width: 65%;
-gap:21px;
-    height: 80vh;
-    overflow: auto;
-    flex-direction: row;
-}
-@media (max-width: 768px) {
-    .especia {
-        padding: 8px 16px;
-        font-size: 14px;
-    }
-     .contec {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-
-}.especia {
+.especia {
     backface-visibility: hidden;
     position: relative;
     cursor: pointer;
@@ -117,4 +93,28 @@ content: 'intagram';
 .purple:hover {
     background: linear-gradient(180deg, #c44 0%, #d8a 49%, #c44 51%, #a22 100%);
     box-shadow: 0px 0px 20px rgba(204, 102, 255, 1), 0px 0px 40px rgba(204, 102, 255, 1), 0px 0px 80px rgba(204, 102, 255, 1);
+}.contec {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 65%;
+gap:21px;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+}
+@media (max-width: 768px) {
+    .especia {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+     .contec {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
 }
