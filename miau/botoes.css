@@ -11,7 +11,7 @@ gap:21px;
     flex-direction: row;
 }
 @media (max-width: 768px) {
-    .especial {
+    .especia {
         padding: 8px 16px;
         font-size: 14px;
     }
@@ -22,7 +22,7 @@ gap:21px;
         height: auto;
     }
 
-}.especial {
+}.especia {
     backface-visibility: hidden;
     position: relative;
     cursor: pointer;
@@ -52,11 +52,11 @@ gap:21px;
     transition: transform 0.5s ease;
 }
 
-.especial:hover::before {
+.especia:hover::before {
     transform: translateX(100%); /* Move the raia across the button */
 }
 
-.especial:hover {
+.especia:hover {
     border: none;
     transform: scale(1.05);
 }
