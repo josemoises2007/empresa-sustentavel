@@ -99,9 +99,9 @@ content: 'intagram';
     justify-content: center;
     align-items: flex-start;
     align-content: center;
-    width: 65%;
+   
 gap:21px;
-    height: 80vh;
+
     overflow: auto;
     flex-direction: row;
 }
