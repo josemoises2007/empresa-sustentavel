@@ -20,7 +20,7 @@
   display: grid;
   place-items: center;
   text-align: center;
-  font-size: calc(3vw + 1em);
+  font-size: calc(3vw + 0.5em);
 }
 
 @-webkit-keyframes slide-in-elliptic-top-fwd {
