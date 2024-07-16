@@ -8,7 +8,7 @@
   
    animation: reveal 2s ease both;
   animation-timeline: scroll();
-  animation-range: cover 10% cover 
+  animation-range: cover 30% cover 
   }
 @keyframes reveal {
   0% {
