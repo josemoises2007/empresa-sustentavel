@@ -1,7 +1,7 @@
 
 .parte3 {
 font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #1f1c2c, #928dab);
+   background: linear-gradient(180deg, rgba(13, 67, 143, 0) 0%, rgba(13, 67, 143, 1) 100%);
     width: 100%;
  display: flex;
     justify-content: center;
