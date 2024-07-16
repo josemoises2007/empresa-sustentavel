@@ -10,7 +10,8 @@
 }
 
 .content{
-border-radius: 10px;}
+border-radius: 10px;
+background:white;}
 
 .welcome-section, .services-section, .faq-section {
   margin-top: 40%;
