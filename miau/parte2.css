@@ -23,8 +23,7 @@
 
 [popover] {
   font-size: 1.2rem;
-  position: relative;
-          padding:120px;
+  padding: 10px;
 
   /* Final state of the exit animation */
   opacity: 0;
@@ -34,9 +33,7 @@ animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     opacity 0.7s,
     transform 0.7s,
     overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
+
 }
 
 .sliderbar{
