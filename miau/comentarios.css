@@ -86,9 +86,9 @@ form textarea {
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
-    border: 2px solid #56a3a6; /* Azul suave para bordas */
-    background-color: rgba(255, 255, 255, 0.7); /* Fundo branco suave */
-    color: #333; /* Texto mais escuro para melhor legibilidade */
+/*     border: 2px solid #56a3a6; 
+    background-color: rgba(255, 255, 255, 0.7); */
+    color: #333; 
 }
 
 form input[type="file"] {
