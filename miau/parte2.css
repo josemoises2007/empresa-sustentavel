@@ -24,11 +24,7 @@
 [popover] {
   font-size: 1.2rem;
   position: relative;
-            width: 300px;
-            height: 300px;
-            margin: 50px auto;
-            overflow: hidden;
-            border-radius: 15px;
+          padding:120px;
 
   /* Final state of the exit animation */
   opacity: 0;
