@@ -15,9 +15,11 @@ background:white;}
 
 .welcome-section, .services-section, .faq-section {
   margin-top: 40%;
-  margin-bottom: 50px; /* Añade margen inferior para evitar superposición */
+  margin-bottom: 50px; 
   padding-top: 50vh;
   width:100%;
+      position: relative;
+    z-index: 24;
 /*   margin: 80px 20px 20px; */
   
  background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
