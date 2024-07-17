@@ -26,9 +26,8 @@
 
             width: 300px;
             height: 300px;
-            margin: 50px auto;
             overflow: hidden;
-            border-radius: 15px;
+        
   /* Final state of the exit animation */
   opacity: 0;
   transform: scaleX(0);
