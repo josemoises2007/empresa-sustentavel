@@ -4,7 +4,19 @@
             padding: 10px;
         /* Ajuste para telas menores */
       }
-    } .parte7{
+    } 
+
+.inp{
+  display:inline-block;
+}
+.submit{
+  
+  display:inline-block;
+  vertical-align:middle;
+}
+
+
+.parte7{
    
       text-align: center;
     /* display: grid; */
@@ -30,9 +42,10 @@
   }
     }
 
- .contal {
+.contal {
             position: relative;
             display: inline-block;
+ 
    border-radius:20px;
         }
 
@@ -46,90 +59,126 @@
             margin-bottom: 10px;
         }
 
-        input[type=text]:focus {
-            border: 3px dashed green;
-            outline: none;
-            border-width: 1px;
-            transition: all 0.3s ease;
-        }
-
-        .input {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: calc(100% - 80px); /* Ajuste para dar espaço ao botão de envio */
-            padding: 10px;
-            box-sizing: border-box;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius:20px;
-            background: linear-gradient(180deg, rgba(13,200,0,0.1745885854341737) 4%, rgba(255,255,255,0.1054009103641457) 43%, rgba(13,200,0,0.1054009103641457) 76%, rgba(13,200,0,0.1138042717086834) 100%);
-            box-shadow: inset 0px 55px 1px 0px rgba(255, 255, 255, 0.1),
-                        inset 0px -20px 5px 0px rgba(0,0,0,0.1),
-                        0px 4px 8px rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            color: #4e9a28;
-            font-size: 16px;
-            transition: box-shadow 0.3s ease, border 0.3s ease;
-        }
-
-        .input::placeholder {
-            color: rgba(255, 255, 255, 1.7);
-          
-      }.input:hover{
-        background: #4e9a28;
-box-shadow:  20px 20px 60px #428322,
-             -20px -20px 60px #5ab12e;
-        color:white;
-        -webkit-box-shadow: inset 55px -36px 58px -8px rgba(0,0,0,0.75);
--moz-box-shadow: inset 55px -36px 58px -8px rgba(0,0,0,0.75);
-box-shadow: inset 55px -36px 58px -8px rgba(0,0,0,0.75);
-      }
-form input[type="text"], form textarea  {
-
-    transition: all 0.3s ease;
+ .inp {
+    position: relative;
+    margin: auto;
+    width: 30%;
+    max-width: 280px;
 }
+
+.inp .label {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    font-size: 16px;
+    color: #060455;
+    font-weight: 500;
+    transform-origin: 0 0;
+    transition: all .2s ease;
+}
+
+.inp svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 26px;
+    fill: none;
+}
+
+.inp svg path {
+    stroke: #C8CCD4;
+    stroke-width: 2;
+    transition: all .2s ease;
+}
+
+.inp .border {
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    height: 2px;
+    right: 0;
+    background: #C8CCD4;
+}
+
+.inp input {
+    -webkit-appearance: none;
+    width: 50%;
+    border: 0;
+    font-family: inherit;
+    padding: 12px 0;
+
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    border-radius: 0;
+    color: #223254;
+    transition: all .15s ease;
+}
+
+.inp input:not(:placeholder-shown) + .label {
+    color: #5A667F;
+    transform: translateY(-26px) scale(.75);
+}
+
+.inp input:focus {
+    background: none;
+    outline: none;
+}
+
+.inp input:focus + .label {
+    color: #0077FF;
+    transform: translateY(-26px) scale(.75);
+    transition-delay: .1s;
+}
+
+.inp input:focus + .label + svg path {
+    stroke: #0077FF;
+}
+
+.inp input:focus + .label + svg .border {
+    background: #0077FF;
+}
+
+
+
+.dribbble {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    transition: all .2s ease;
+}
+
+.dribbble span {
+    font-size: 28px;
+    color: #9098A9;
+}
+
         .submit {
             position: absolute;
-            bottom: 0;
+         
             right: 0;
             width: 80px;
             padding: 10px;
             box-sizing: border-box;
-            border: 2px solid #4e9a28;
-             border-radius:9px;
-            background: linear-gradient(180deg, rgba(13,200,0,0.1745885854341737) 4%, rgba(255,255,255,0.1054009103641457) 43%, rgba(13,200,0,0.1054009103641457) 76%, rgba(13,200,0,0.1138042717086834) 100%);
+            border: 2px solid #0077FF;
+             border-radius:20px;
+           background: linear-gradient(90deg, rgba(80,114,238,0.3636642156862745) 0%, rgba(139,217,255,0.3804709383753502) 100%);
             box-shadow: inset 0px 55px 1px 0px rgba(255, 255, 255, 0.1),
                         inset 0px -20px 5px 0px rgba(0,0,0,0.1),
                         0px 4px 8px rgba(0, 0, 0, 0.4);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            color: #4e9a28;
+            color: #0077FF;
             font-size: 16px;
             transition: all 0.3s ease;
             cursor: pointer;
         }
       .submit:hover{
-        background:#4e9a28;
+        background:#0077FF;
         color:white;
       }
-      .map-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            height: 0;
-            overflow: hidden;
-        }
-        .map-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
+
         /* Media query para garantir que o mapa seja visualizado corretamente em dispositivos móveis */
         @media (max-width: 600px) {
             .map-container {
