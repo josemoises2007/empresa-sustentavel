@@ -22,7 +22,10 @@ justify-content: center;
   
 }
 
+section{
+z-index:122;
 
+}
 
 
 body, head {
