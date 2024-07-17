@@ -3,7 +3,7 @@
 }
 html{scroll-behavior: smooth;
      
-  overflow: hidden;
+
   background: #123;
 }
 body{
@@ -11,7 +11,7 @@ body{
   padding:0;
   font-size: 1rem;
   margin-inline: auto;
-  overflow-x: hidden;
+/*   overflow-x: hidden; */
 /*  
 display: flex;
 
