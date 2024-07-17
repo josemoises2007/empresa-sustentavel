@@ -23,7 +23,8 @@ justify-content: center;
 }
 
 section{
-z-index:122;
+   position:relative;
+z-index:12;
 
 }
 
