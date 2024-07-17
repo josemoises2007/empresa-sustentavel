@@ -27,8 +27,8 @@ justify-content: center;
 
 body, head {
   display: block;
-  font-size: 52px;
-  color: transparent;
+
+ 
 }
 
 head::before, head::after,
