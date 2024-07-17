@@ -1,21 +1,21 @@
-/* Estilos para telas menores que 600px */
+
 @media (max-width: 600px) {
     .contal {
         padding: 10px;
-        /* Ajuste para telas menores */
+        
     }
 
     .inp {
-        display: block; /* Exemplo de ajuste para dispositivos menores */
-        width: 100%; /* Ajuste de largura total para dispositivos menores */
-        max-width: none; /* Redefinir a largura máxima se necessário */
+        display: block;
+        width: 100%; 
+        max-width: none;
     }
 
     .submit {
-        display: block; /* Exemplo de ajuste para dispositivos menores */
-        width: 100%; /* Ajuste de largura total para dispositivos menores */
-        max-width: none; /* Redefinir a largura máxima se necessário */
-        margin-top: 10px; /* Exemplo de margem superior ajustada para dispositivos menores */
+        display: block; 
+        width: 100%;
+        max-width: none; 
+        margin-top: 10px;
     }
 
     .parte7 {
@@ -25,22 +25,20 @@
         background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px, #f2f2f2 20px);
     }
 
-    /* Exemplo de ajuste para a imagem */
     .image {
-        width: 100%; /* Largura total para dispositivos menores */
-        height: auto; /* Altura automática para manter a proporção */
-        margin-bottom: 10px; /* Manter a margem inferior */
+        width: 100%;
+        height: auto; 
+        margin-bottom: 10px; 
     }
 }
 
-/* Restante do seu CSS continua abaixo */
 .contal {
     position: relative;
     display: inline-block;
     border-radius: 20px;
 }
 
-/* Outros estilos continuam... */
+
 
 .inp{
   display:inline-block;
@@ -61,10 +59,10 @@ place-items: center;
      @keyframes moveBackground {
       0% {
         background-position: 0 0;
-        /* Posição inicial do gradiente */
+       
       }
       100% {
-        background-position: 100% 100%; /* Movimento do gradiente */
+        background-position: 100% 100%; 
       }
     }
  .contal {
