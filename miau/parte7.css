@@ -1,10 +1,46 @@
- @media (max-width: 600px) {
-      .contal {
-     
-            padding: 10px;
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px) {
+    .contal {
+        padding: 10px;
         /* Ajuste para telas menores */
-      }
-    } 
+    }
+
+    .inp {
+        display: block; /* Exemplo de ajuste para dispositivos menores */
+        width: 100%; /* Ajuste de largura total para dispositivos menores */
+        max-width: none; /* Redefinir a largura máxima se necessário */
+    }
+
+    .submit {
+        display: block; /* Exemplo de ajuste para dispositivos menores */
+        width: 100%; /* Ajuste de largura total para dispositivos menores */
+        max-width: none; /* Redefinir a largura máxima se necessário */
+        margin-top: 10px; /* Exemplo de margem superior ajustada para dispositivos menores */
+    }
+
+    .parte7 {
+        display: grid;
+        animation: moveBackground 20s linear infinite;
+        place-items: center;
+        background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px, #f2f2f2 20px);
+    }
+
+    /* Exemplo de ajuste para a imagem */
+    .image {
+        width: 100%; /* Largura total para dispositivos menores */
+        height: auto; /* Altura automática para manter a proporção */
+        margin-bottom: 10px; /* Manter a margem inferior */
+    }
+}
+
+/* Restante do seu CSS continua abaixo */
+.contal {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+/* Outros estilos continuam... */
 
 .inp{
   display:inline-block;
@@ -15,34 +51,23 @@
   vertical-align:middle;
 }
 
-
 .parte7{
    
-      text-align: center;
-    /* display: grid; */
-    animation:swing-in-top-fwd linear both;
-  animation-timeline: view(block);
-  animation-range: cover 0% cover 20%;
-    place-items: center;
-    background: linear-gradient(to bottom right, #00ffcc, #0080ff); background: linear-gradient(to bottom right, #00ffcc, #0080ff); }
-     @keyframes swing-in-top-fwd {
-       0% {
-    -webkit-transform: rotateX(-100deg);
-            transform: rotateX(-100deg);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-    opacity: 1;
-  }
+    display: grid;
+    animation: moveBackground 20s linear infinite; 
+place-items: center;
+       background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px, #f2f2f2 20px);
     }
-
-.contal {
+     @keyframes moveBackground {
+      0% {
+        background-position: 0 0;
+        /* Posição inicial do gradiente */
+      }
+      100% {
+        background-position: 100% 100%; /* Movimento do gradiente */
+      }
+    }
+ .contal {
             position: relative;
             display: inline-block;
  
@@ -178,10 +203,3 @@
         background:#0077FF;
         color:white;
       }
-
-        /* Media query para garantir que o mapa seja visualizado corretamente em dispositivos móveis */
-        @media (max-width: 600px) {
-            .map-container {
-                padding-bottom: 75%; /* Ajustar a proporção conforme necessário */
-            }
-        }
