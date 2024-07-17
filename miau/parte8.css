@@ -1,6 +1,6 @@
 .parte8{
     font-family: 'Arial', sans-serif;
-background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px, #f2f2f2 20px);
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +20,7 @@ background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px
 }
 
 .glassmorphism {
+        max-height: 220px;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
@@ -30,6 +31,7 @@ background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px
 }
 
 .neumorphism {
+        max-height: 220px;
     background: #e0e0e0;
     border-radius: 12px;
     box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
