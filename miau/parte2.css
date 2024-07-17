@@ -2,7 +2,7 @@
 
 /* Transition for the popover itself */
 
-[popover]:popover-open {
+.content [popover]:popover-open {
   opacity: 1;
   
 	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -21,10 +21,14 @@
 }
 
 
-[popover] {
+.content [popover] {
   font-size: 1.2rem;
-  padding: 10px;
 
+            width: 300px;
+            height: 300px;
+            margin: 50px auto;
+            overflow: hidden;
+            border-radius: 15px;
   /* Final state of the exit animation */
   opacity: 0;
   transform: scaleX(0);
