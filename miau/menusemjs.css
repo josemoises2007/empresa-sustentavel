@@ -20,7 +20,12 @@
         text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,  border 0.3s ease-in-out;
 }
-
+.menu:before{background: rgb(202,249,239);
+background: -moz-linear-gradient(90deg, rgba(202,249,239,0.53453256302521) 0%, rgba(180,227,217,0.53453256302521) 100%);
+background: -webkit-linear-gradient(90deg, rgba(202,249,239,0.53453256302521) 0%, rgba(180,227,217,0.53453256302521) 100%);
+background: linear-gradient(90deg, rgba(202,249,239,0.53453256302521) 0%, rgba(180,227,217,0.53453256302521) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#caf9ef",endColorstr="#b4e3d9",GradientType=1);
+}
     .especial:hover {
       border:none;
         background: linear-gradient(180deg, #8cc 0%, #aee 49%, #8cc 51%, #599 100%);
