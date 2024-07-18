@@ -54,7 +54,7 @@
     display: grid;
     animation: moveBackground 20s linear infinite; 
 place-items: center;
-       background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 12px, #f2f2f2 12px, #f2f2f2 20px);
+    background-image: linear-gradient(90deg, rgb(116, 235, 213) 0%, rgb(159, 172, 230) 100%);
     }
      @keyframes moveBackground {
       0% {
