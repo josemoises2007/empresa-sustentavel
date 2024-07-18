@@ -14,13 +14,13 @@
 .footer-content h1 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #4a4a4a;
+    color: black;
 }
 
 .footer-content p {
     font-size: 16px;
     line-height: 1.6;
-    color: #4a4a4a;
+    color: black;
 }
 
 .footer {
@@ -35,18 +35,18 @@
 
 .footer-content p {
     margin: 10px 0;
-    color: #4a4a4a;
+    color:black;
 }
 
 .footer-content a {
-    color: #4a4a4a;
+    color:black;
     text-decoration: none;
 }
 
 .footer-content .social-links a {
     margin: 0 10px;
     display: inline-block;
-    color: #4a4a4a;
+    color:black;
 }
 
 
