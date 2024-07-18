@@ -82,14 +82,14 @@ head::after {
   }
 }
 h1{
- font-weight:Bold;
-  font-size:90px;
-   font-size: 72px;
-  background: -webkit-linear-gradient(135deg, #c7f9cc, #4ad393);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  font-family: Arial, sans-serif;
+font-weight: Bold;
+    font-size: 90px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(135deg, #1586cb, #00ff08);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: Arial, sans-serif;
 }
 h2{
 font-weight:Bold;
