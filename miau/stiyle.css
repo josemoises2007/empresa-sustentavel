@@ -1,5 +1,7 @@
 *{
-   font-family: "Anton SC", sans-serif;
+font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 html{scroll-behavior: smooth;
      
