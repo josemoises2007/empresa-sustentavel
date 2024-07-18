@@ -90,6 +90,7 @@
       display: none;
     }
     .preview-btn {
+         word-break: break-word
         margin: 12px;
     display: inline-block;
     max-width: 150px;
