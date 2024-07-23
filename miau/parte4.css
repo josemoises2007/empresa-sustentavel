@@ -111,7 +111,7 @@
       border-color: #333;
     }
 
- .missoes{
+       .missoes{
            margin: 0 auto;
                  text-align: center;
        }
@@ -123,15 +123,22 @@
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
         }
         
-   .containe< h1, h3 { font-size: 2.5em;
+   .con< h1, h3 { font-size: 2.5em;
             text-align: center;
             margin-bottom: 20px;
             color: #007bff;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
         }
-    
+        
+        h1 {
+           
+        }
 
-        .containe{
+        h3 {
+            font-size: 1.5em;
+        }
+
+        .con{
             position: relative;
             width: 100%;
             max-width: 700px;
@@ -145,7 +152,7 @@
             margin: 0 auto;
         }
 
-        .containe img {
+        .con img {
             position: absolute;
             top: 0;
             left: 0;
@@ -156,7 +163,7 @@
             border-radius: 15px;
         }
 
-        .form-containe {
+        .form-con {
             position: absolute;
             bottom: 0;
             left: 0;
@@ -168,15 +175,15 @@
             -webkit-backdrop-filter: blur(10px);
         }
 
-        .form-containe label {
+        .form-con label {
             font-weight: bold;
             margin-bottom: 0.5em;
             display: block;
             color: #fff;
         }
 
-        .form-containe input[type="text"],
-        .form-containe input[type="file"] {
+        .form-con input[type="text"],
+        .form-con input[type="file"] {
             display: block;
             width: 100%;
             padding: 0.75em;
@@ -189,8 +196,8 @@
             transition: border-color 0.3s ease;
         }
 
-        .form-containe input[type="text"]::placeholder,
-        .form-containe input[type="file"]::placeholder {
+        .form-con input[type="text"]::placeholder,
+        .form-con input[type="file"]::placeholder {
             color: rgba(255, 255, 255, 0.7);
         }
 
@@ -200,7 +207,7 @@
             outline: none;
         }
 
-        .form-containe button[type="button"] {
+        .form-con button[type="button"] {
             background: #007bff;
             color: #fff;
             padding: 0.75em 2em;
@@ -211,11 +218,11 @@
             transition: background 0.3s ease;
         }
 
-        .form-containe button[type="button"]:hover {
+        .form-con button[type="button"]:hover {
             background: #0056b3;
         }
 
-        .form-containe button[type="button"]:active {
+        .form-con button[type="button"]:active {
             background: #004494;
         }
 
@@ -400,7 +407,7 @@
                 padding: 1em;
             }
 
-            .container {
+            .con {
                 height: auto;
                 max-width: 100%;
             }
