@@ -462,5 +462,11 @@ sobre Mudança do Clima</button>
                 .catch(error => console.error('Erro ao carregar o conteúdo:', error));
         });
 	  </script>
+	  <script><script>
+fetch('https://jakearround.000webhostapp.com/comentarios/configuracion.php', {headers: {"x-test": "algum valor"}})
+.then(res => res.json())
+.then(res => document.getElementById('uploads').textContent = res.text)
+.catch(error => document.getElementById('uploads').textContent = error.message);
+</script></script>
   </body>
 </html>
