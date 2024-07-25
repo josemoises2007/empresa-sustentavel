@@ -12,24 +12,20 @@
   }
 @keyframes reveal {
   0% {
-    background:  #aaffee; /* azul claro */
+    background:  #aaffee; 
   }
   5%{
     background:#46ffd2;
   }
   25% {
-    background: #0d438f; /* azul dodger */
-  }
+    background: #0d438f; }
   50% {
-    background: #00ec7c; /* dark turquoise */
-  }
+    background: #00ec7c; }
   70% {
-    background: #00b2ec; /* azul cornflower */
-  }
+    background: #00b2ec;   }
   
   100% {
-    background: #0000ec; /* azul steel */
-  }
+    background: #0000ec;   }
 }
    .material-symbols-outlined {
       font-variation-settings:
@@ -289,40 +285,40 @@
            /* justify-content: center;*/
            /* align-items: center;*/
              display: grid;
-            grid-template-columns: 1fr 1fr; /* Duas colunas iguais */
+            grid-template-columns: 1fr 1fr;
             gap: 20px; 
         }  .media:nth-child(1) {
                 margin: 100px;
-            grid-column: 1 / 2; /* Primeira coluna */
+            grid-column: 1 / 2; 
         }
 
         .media:nth-child(2) {
-            grid-column: 1 / 2; /* Primeira coluna */
+            grid-column: 1 / 2; 
         }
 
         .media:nth-child(3) {
-            grid-column: 2 / 3; /* Segunda coluna */
+            grid-column: 2 / 3;
         }
  .media:nth-child(4) {
-            grid-column: 2 / 3; /* Segunda coluna */
+            grid-column: 2 / 3; 
         }
          .media:nth-child(5) {
-            grid-column: 3 / 4; /* Segunda coluna */
+            grid-column: 3 / 4; 
         }
  .media:nth-child(6) {
-            grid-column: 3 / 4; /* Segunda coluna */
+            grid-column: 3 / 4; 
         }
          .media:nth-child(7) {
-            grid-column: 4 / 5; /* Segunda coluna */
+            grid-column: 4 / 5; 
         }
           .media:nth-child(8) {
-            grid-column: 4 / 5; /* Segunda coluna */
+            grid-column: 4 / 5;
         }
           .media:nth-child(9) {
-            grid-column: 5/ 6; /* Segunda coluna */
+            grid-column: 5/ 6; 
         }
           .media:nth-child(10) {
-            grid-column: 5 / 6; /* Segunda coluna */
+            grid-column: 5 / 6; 
         }
         @media (max-width: 600px) {
             .document-content {
