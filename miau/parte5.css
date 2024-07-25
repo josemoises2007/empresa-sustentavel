@@ -96,7 +96,7 @@
 }
 
 .question[open] .answer {
-  max-height: var(--answer-max-height); /* Adjust as needed */
+  max-height: var(--answer-max-height); 
   transition: max-height 0.5s ease-in;
 }
 
