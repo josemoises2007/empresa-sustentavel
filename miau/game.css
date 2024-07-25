@@ -1,15 +1,15 @@
 
 .iframe-container {
-    width: 90%; /* Aumenta el ancho del contenedor */
-    max-width: 1000px; /* Aumenta el ancho máximo del contenedor */
-    height: 90%; /* Aumenta la altura del contenedor */
-    max-height: 800px; /* Aumenta la altura máxima del contenedor */
+    width: 90%; 
+    max-width: 1000px; 
+    height: 90%; 
+    max-height: 800px; 
     border: 5px solid #000;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     background-color: #fff;
-    padding: 20px; /* Añade relleno alrededor del iframe */
+    padding: 20px;
 }
 
 iframe {
