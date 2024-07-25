@@ -15,22 +15,21 @@
     font-style: normal;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
-    overflow: hidden; /* To hide the overflow of the pseudo-element */
+    overflow: hidden; 
 }
 
 .especia::before {
     content: '';
     position: absolute;
     top: 0;
-    left: -100%; /* Start the raia from outside the button */
+    left: -100%;
     width: 100%;
     height: 100%;
     transition: transform 0.5s ease;
 }
 
 .especia:hover::before {
-    transform: translateX(100%); /* Move the raia across the button */
-}
+    transform: translateX(100%);
 
 .especia:hover {
     border: none;
