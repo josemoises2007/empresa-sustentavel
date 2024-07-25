@@ -1,6 +1,5 @@
 
 
-/* Transition for the popover itself */
 
 .content [popover]:popover-open {
   opacity: 1;
@@ -28,7 +27,7 @@
             height: 300px;
             overflow: hidden;
         
-  /* Final state of the exit animation */
+
   opacity: 0;
   transform: scaleX(0);
 animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -42,8 +41,7 @@ animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 .sliderbar{
   z-index:1000000000000000000000000000000000000000000000;
 }
-/* Needs to be after the previous [popover]:popover-open rule
-to take effect, as the specificity is the same */
+
 @starting-style {
   [popover]:popover-open {
     opacity: 0;
@@ -77,7 +75,7 @@ to take effect, as the specificity is the same */
 
 
 
-/* Transition for the popover's backdrop */
+
 @keyframes slide-in-left {
   0% {
     transform: translateX(-1000px);
@@ -96,16 +94,14 @@ to take effect, as the specificity is the same */
     display 0.7s allow-discrete,
     overlay 0.7s allow-discrete,
     background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
+
 }
 
 [popover]:popover-open::backdrop {
   background-color: rgb(0 0 0 / 25%);
 }
 
-/* The nesting selector (&) cannot represent pseudo-elements
-so this starting-style rule cannot be nested */
+
 
 @starting-style {
   [popover]:popover-open::backdrop {
@@ -141,54 +137,54 @@ so this starting-style rule cannot be nested */
 
   .video-container iframe {
     width: 100%;
-    height: 300px; /* Altura ajustável conforme necessário */
+    height: 300px; 
   }
 
   .content {
     
     padding: 20px;
     text-align: center;
-  }/* Contenedor del slider */
+  }
 .volumeSliderContainer {
   width: 80px;
-  overflow: hidden; /* Evita que el contenido se salga del contenedor */
+  overflow: hidden;
 }
 
-/* Estilos para el slider */
+
 .volumeSlider {
   width: 100%;
   -webkit-appearance: none;
   appearance: none;
   height: 5px;
   border-radius: 10px;
-  background-color: rgba(148, 181, 233, 0.5); /* Cambiado a azul claro */
+  background-color: rgba(148, 181, 233, 0.5); 
 }
 
-/* Estilos para el thumb */
+
 .volumeSlider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #94b5e9; /* Cambiado a azul claro */
+  background-color: #94b5e9; 
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(148, 181, 233, 0.5); /* Cambiado a azul claro */
+  box-shadow: 0 0 10px rgba(148, 181, 233, 0.5); 
 }
 
 .video-player {
-  width: 100%; /* Ajusta el ancho del video al 100% del contenedor */
-  height: auto; /* Permite que la altura se ajuste automáticamente */
+  width: 100%; 
+  height: auto; 
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(148, 181, 233, 0.5); /* Cambiado a azul claro */
+  box-shadow: 0 0 20px rgba(148, 181, 233, 0.5); 
 }
 
 .controls {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%; /* Ajusta el ancho de las barras de control al 100% del contenedor */
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
@@ -197,7 +193,6 @@ so this starting-style rule cannot be nested */
   border-radius: 5px;
 }
 
-/* Media query para teléfonos */
 @media screen and (max-width: 576px) {
   .video-container {
     max-width: 100%;
@@ -214,26 +209,24 @@ so this starting-style rule cannot be nested */
   box-shadow: 8px 8px 16px rgba(0,0,0,0.2), -8px -8px 16px rgba(255,255,255,0.5); /* Neuformismo */
 }
 
-/* Media query para teléfonos */
+
 @media screen and (max-width: 576px) {
   .video-container {
     max-width: 100%;
-    margin: 10px auto; /* Ajustar margen para teléfonos */
+    margin: 10px auto;
   }
 }
 
-/* Media query para tabletas */
 @media screen and (min-width: 577px) and (max-width: 1024px) {
   .video-container {
-    max-width: 80%; /* Reducir el ancho máximo para tabletas */
+    max-width: 80%;
     margin: 9px;
   }
 }
 
-/* Media query para computadoras */
 @media screen and (min-width: 1025px) {
   .video-container {
-    max-width: 800px; /* Mantener el mismo ancho máximo para computadoras */
+    max-width: 800px; 
     margin: 9px;
   }
 }
@@ -242,7 +235,7 @@ so this starting-style rule cannot be nested */
   width: 100%;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(148, 181, 233, 0.5); /* Cambiado a azul claro */
+  box-shadow: 0 0 20px rgba(148, 181, 233, 0.5); 
 }
 
 .controls {
@@ -299,7 +292,7 @@ so this starting-style rule cannot be nested */
 
 .progress-bar {
   height: 100%;
-  background-color: #94b5e9; /* Cambiado a azul claro */
+  background-color: #94b5e9; 
   width: 0%;
   border-radius: 3px;
 }
