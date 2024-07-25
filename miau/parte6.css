@@ -79,15 +79,15 @@
 
 @media screen and (max-width: 600px) {
   .faq-container {
-    width: 90%; /* Reducir la anchura del contenedor en dispositivos móviles */
-    padding: 15px; /* Ajustar el relleno del contenedor */
+    width: 90%; 
+    padding: 15px; 
   }
 
   .question {
-    padding: 12px; /* Ajustar el relleno de las preguntas en dispositivos móviles */
+    padding: 12px; 
   }
 
   .question summary {
-    font-size: 16px; /* Reducir el tamaño de la fuente del resumen en dispositivos móviles */
+    font-size: 16px; 
   }
 }
