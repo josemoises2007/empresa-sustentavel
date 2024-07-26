@@ -53,15 +53,15 @@
 }
 @media (max-width: 768px) {
     .container glassmorphism {
-        width: 90%; /* Reduz a largura do container */
-        margin: 10px; /* Reduz a margem */
+        width: 90%; 
+        margin: 10px; 
     }
 
    .sect h1 {
-        font-size: 20px; /* Reduz o tamanho da fonte do título */
+        font-size: 20px;
     }
 
     sect p {
-        font-size: 14px; /* Reduz o tamanho da fonte dos parágrafos */
+        font-size: 14px; 
     }
 }
