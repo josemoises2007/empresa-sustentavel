@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-    background:background: linear-gradient(90deg, #9600fb 0%, #00ffd0 100%);
+  background: linear-gradient(90deg, #9600fb 0%, #00ffd0 100%);
      position: fixed;
   top: 0;
   right: 0;
