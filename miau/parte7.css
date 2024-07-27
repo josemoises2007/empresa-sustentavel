@@ -201,3 +201,9 @@ place-items: center;
         background:#0077FF;
         color:white;
       }
+@media (max-width: 480px) {
+  .submit {width: 80px;
+    padding: 3px;
+    
+  }
+}
