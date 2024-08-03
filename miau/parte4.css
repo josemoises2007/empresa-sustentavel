@@ -361,7 +361,7 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
-        a {
+       .file-info > a {
             text-decoration: none;
             color: #2e7d32;
             word-wrap: break-word;
@@ -373,7 +373,7 @@
      
         }
 
-        a::before {
+       .file-info > a::before {
             content: "ver mais detalhado";
             background:white;
             position: absolute;
@@ -387,13 +387,13 @@
             transition: all 0.3s ease-in-out;
         }
 
-        a:hover::before {
+      .file-info >  a:hover::before {
             visibility: visible;
             transform: scaleX(1);
               color: white;
         }
 
-        a:hover {
+     .file-info >   a:hover {
             color: #1b5e20;
          
         }
