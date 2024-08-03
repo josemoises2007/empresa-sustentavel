@@ -4,14 +4,17 @@
   
 }
  @media (max-width: 768px) {
-           .load-img {
+       #loading-image {
                 width: 150px;
+              height: 200px;
+
             }
         }
 
         @media (max-width: 480px) {
-           .load-img {
-                width: 100px;
+        #loading-image {
+                  height: 200px;
+  width: 50%;
             }
         }
 
@@ -42,6 +45,7 @@
 #loading-image {
   margin-top: 20px;
   display: none;
+  
 } progress[value] {
         display: block;
         
