@@ -1,6 +1,6 @@
 # O planeta em nossas mãos
 
- É uma empresa interessada em criar e defender idéias inovadoras com foco na preservação da vida do planeta e uso sustentavel dos recursos naturais, implementando uma variedade de estratégias e atividades criativas adaptadas para crianças, adolescentes, docentes, pais, responsáveis e instituições interessadas.
+ É uma empresa interessada em criar e defender idéias inovadoras com foco na preservação da vida do planeta e uso sustentavel dos recursos naturais, implementando uma variedade de estratégias e atividades criativas adaptadas para crianças, adolescentes, docentes, pais e qualquer outra instituição interessada.
 ## indice
 
 - [Visão Geral](#Visão-geral)
@@ -10,9 +10,9 @@
 
 ## Visão Geral
 
-Esta é uma página simples para oferecer ideias sustentaveis de como proteger e conservar o meio ambiente
+Esta é uma página simple para oferecer ideias sustentaveis de como proteger e conservar o meio ambiente
 
-Ela inclui um menu, uma area de quem somos, missão e valores, projetos prontos, servições e soluções que a empresa oferece, um blog, um formulário para publicar tuas ideias para futuros projetos, uma seção de contato, termos e condiçoes e uma caixa de comentarios que não requer login.
+Ela inclui um menu, uma area de quem somos, missão, visão, projetos prontos, servições e soluções que a empresa oferece. Um blog, um formulário para publicar tuas ideias em futuros projetos, uma seção de contato, termos, condições e uma caixa de comentarios que não requer login.
 
 ## Autor 
 José Moises Romero Montano
@@ -32,7 +32,7 @@ Endereço: Rua José Gomes paulino filho - Ubiratã - Paraná - Brasil
 > Algumas funções da página estão restritas só para usuarios de pc.
 
 > [!TIP]
-> Se você tem alguma duvida e quer uma resposta rpapida, nos contate com o Gmail do criador
+> Se você tem alguma duvida e quer uma resposta rapida, nos contate com o Gmail do criador
 
 > [!IMPORTANT]
 > Uma vez que o comentario ou projeto esteja postado na página, não vai ser possível deletar o arquivo.
