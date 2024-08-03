@@ -23,8 +23,43 @@
   box-shadow: var(--section-box-shadow);
   backdrop-filter: var(--section-blur);
   -webkit-backdrop-filter: var(--section-blur);
+   animation: slit-in-horizontal 0.45s ease-out both;
+  animation-timeline: view(block);
+  animation-range: cover 0% cover 40%;
   
+}@-webkit-keyframes slit-in-horizontal {
+  0% {
+    -webkit-transform: translateZ(-800px) rotateX(90deg);
+            transform: translateZ(-800px) rotateX(90deg);
+    opacity: 0;
+  }
+  54% {
+    -webkit-transform: translateZ(-160px) rotateX(87deg);
+            transform: translateZ(-160px) rotateX(87deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateZ(0) rotateX(0);
+            transform: translateZ(0) rotateX(0);
+  }
 }
+@keyframes slit-in-horizontal {
+  0% {
+    -webkit-transform: translateZ(-800px) rotateX(90deg);
+            transform: translateZ(-800px) rotateX(90deg);
+    opacity: 0;
+  }
+  54% {
+    -webkit-transform: translateZ(-160px) rotateX(87deg);
+            transform: translateZ(-160px) rotateX(87deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateZ(0) rotateX(0);
+            transform: translateZ(0) rotateX(0);
+  }
+}
+
 
 .container {
   max-width: 800px;
