@@ -41,6 +41,6 @@ Endereço: Rua José Gomes paulino filho - Ubiratã - Paraná - Brasil
 > Tome cuidado nos arquivos ou comentarios que você mande na página.
 
 > [!CAUTION]
-> .
+> Se a página deletar a area de projetos postados e comentarios, nos contate rapido.
 
 
