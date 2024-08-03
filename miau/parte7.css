@@ -206,4 +206,28 @@ place-items: center;
     padding: 3px;
     
   }
+    .submit {
+    position: absolute;
+    right: 0;
+    width: 140px;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    border: 2px solid #0077FF;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(80, 114, 238, 0.3636642156862745) 0%, rgba(139, 217, 255, 0.3804709383753502) 100%);
+    box-shadow: inset 0px 55px 1px 0px rgba(255, 255, 255, 0.1), inset 0px -20px 5px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: #0077FF;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.submit {
+    margin-bottom: 40px;
+    margin: / / 15px 50px 40;
+    display: inline-block;
+    vertical-align: middle;
+}
 }
