@@ -1,8 +1,4 @@
-.load-img{
-  width:100vh;
-  border-radius:10px;
-  
-}
+
  @media (max-width: 768px) {
        #loading-image {
                 width: 150px;
@@ -45,7 +41,8 @@
 #loading-image {
   margin-top: 20px;
   display: none;
-  
+   height: 200px;
+  width: 50%;
 } progress[value] {
         display: block;
         
