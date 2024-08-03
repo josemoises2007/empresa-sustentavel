@@ -30,7 +30,7 @@
     color: black; 
     animation:tilt-in-bottom-2 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation-timeline: view(block);
-  animation-range: cover 0% cover 40%;
+  animation-range: cover 0% cover 50%;
 
 }
 @-webkit-keyframes tilt-in-bottom-2 {
@@ -60,7 +60,7 @@
 
 .neumorphism { animation:tilt-in-bottom-2 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation-timeline: view(block);
-  animation-range: cover 0% cover 40%;
+  animation-range: cover 0% cover 50%;
         max-height: 220px;
     background: #e0e0e0;
     border-radius: 12px;
