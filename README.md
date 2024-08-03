@@ -1,7 +1,6 @@
 # O planeta em nossas mãos
 
-Somos uma equipe interessada em criar e defender idéias inovadoras com foco na preservação da vida do planeta e uso sustentavel dos recursos naturais
-com uma variedade de estratégias e atividades criativas adaptadas para crianças, adolescentes, docentes, pais e responsáveis.
+ É uma interessada em criar e defender idéias inovadoras com foco na preservação da vida do planeta e uso sustentavel dos recursos naturais, com uma variedade de estratégias e atividades criativas adaptadas para crianças, adolescentes, docentes, pais e responsáveis.
 ## indice
 
 - [Visão Geral](#Visão-geral)
