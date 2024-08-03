@@ -1,6 +1,9 @@
 # O planeta em nossas mãos
 
- É uma empresa interessada em criar e defender idéias inovadoras com foco na preservação da vida do planeta e uso sustentavel dos recursos naturais, implementando uma variedade de estratégias e atividades criativas adaptadas para crianças, adolescentes, docentes, pais e qualquer outra instituição interessada.
+É uma empresa interessada em criar e defender ideais inovadoras com foco na preservação da vida do planeta e uso sustentável dos recursos naturais, implementando uma variedade de estratégias e atividades criativas adaptadas para crianças, adolescentes, docentes, pais e qualquer outra instituição interessada.
+
+
+
 ## indice
 
 - [Visão Geral](#Visão-geral)
