@@ -27,8 +27,8 @@ José Moises Romero Montano
 
 ### Contato:
 
-Email: jakephp4@gmail.com
-Telefone: 44991538004
+Email: jakephp4@gmail.com</br>
+Telefone: 44991538004</br>
 Endereço: Rua José Gomes paulino filho - Ubiratã - Paraná - Brasil
 
 > [!NOTE]
