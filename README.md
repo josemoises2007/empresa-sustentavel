@@ -29,18 +29,18 @@ Telefone: 44991538004
 Endereço: Rua José Gomes paulino filho - Ubiratã - Paraná - Brasil
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> Algumas funções da página estão restritas só para usuarios de pc.
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> Se você tem alguma duvida e quer uma resposta rapida, nos contate com o Gmail do criador
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> Uma vez que o comentario ou projeto esteja postado na página, não vai ser possível deletar o arquivo.
 
 > [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> Tome cuidado nos arquivos ou comentarios que você mande na página.
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+> .
 
 
