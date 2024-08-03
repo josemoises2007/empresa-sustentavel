@@ -32,7 +32,7 @@ Endereço: Rua José Gomes paulino filho - Ubiratã - Paraná - Brasil
 > Algumas funções da página estão restritas só para usuarios de pc.
 
 > [!TIP]
-> Se você tem alguma duvida e quer uma resposta rapida, nos contate com o Gmail do criador
+> Se você tem alguma duvida e quer uma resposta rpapida, nos contate com o Gmail do criador
 
 > [!IMPORTANT]
 > Uma vez que o comentario ou projeto esteja postado na página, não vai ser possível deletar o arquivo.
